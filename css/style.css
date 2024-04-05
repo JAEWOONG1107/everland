@@ -212,6 +212,7 @@ header .search-bar .search-wrap button {
     font-size : 24px;
     color : #9558d7;
     cursor : pointer;
+    outline : none;
 }
 
 header .search-bar .close-button {
@@ -708,7 +709,7 @@ ul.tabs li.tab-link{
     z-index: 20;
 }
 ul.tabs li.menu-on {
-    font-family: 'NPSfontBold';
+    font-family: 'KCC-Hanbit';
     /* background: rgba(249, 198, 138, 0.7); */
     background: rgb(164, 212, 208);
     font-size: 36px;
@@ -1091,7 +1092,7 @@ div.current {
 /* sanrio event */
 div.sanrio-event {
     font-family: 'LeeSeoyun';
-    background : linear-gradient(90deg , #ecfcf1, #e1f6ff);
+    background : linear-gradient(135deg , #ecfcf1, #e1f6ff);
     width : 65%;
     margin : 100px auto 0;
     padding-top : 20px;
@@ -1632,14 +1633,14 @@ form .submit {
 #loginwrap .join li {
     padding: 10px 0px 5px 0px ;
 }
-#loginwrap .join li a {
+#loginwrap .join > li a {
     border-right: 1px solid #ccc;
     height: 30px;
     line-height: 15px;
     padding: 10px 10px;
 }   
 
-.join li a:last-child {
+#loginwrap .join > li:last-child a {
     border: none;
 }
 
