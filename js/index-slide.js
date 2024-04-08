@@ -7,6 +7,7 @@ $(function(){
         pause : 3000,
         speed : 500,
         pager: true,
+        touchEnabled : (navigator.maxTouchPoints > 0),
         slideWidth: 1100
     });
 })
